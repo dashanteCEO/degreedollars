@@ -4,7 +4,7 @@ Degree Dollars is a crowdfunding web application designed to assist college stud
 
 ### 1. Contributing Code
 
-Please note that contributions to the master branch are not allowed. Instead, you will have to create a separate branch with the naming convention "@Stack/task-accomplished" and then do your work there. For contributors, you are not allowed to use @FullStack. Pull Requests with that tag will be rejected. Instead, create an issue.
+Please note that contributions to the master branch are not allowed. Instead, you will have to create a separate branch with the naming convention "@Stack/task-accomplished" and then do your work there.
 
 **For Example:**
 
