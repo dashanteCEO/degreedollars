@@ -1,0 +1,3 @@
+NODE_ENV=development
+MONGO=mongodb+srv://dollarsdegree:<password>@degree-dollars-cluster.d3lqtc7.mongodb.net/degree-dollars?retryWrites=true&w=majority
+MONGO_PASSWORD=RQR7icpoUrLKi4NA
