@@ -1,13 +1,9 @@
-import { useState } from 'react'
-import './App.css'
-
 function App() {
-
   return (
-    <div className='bg-black'>
-bfnds
+    <div className="bg-red-300 min-h-screen flex items-center justify-center">
+      <p className="text-4xl font-bold">Degree Dollars Frontend Setup</p>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
