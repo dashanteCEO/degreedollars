@@ -1,0 +1,24 @@
+{
+  "name": "degree-dollars",
+  "version": "1.0.0",
+  "description": "Degree Dollars is a crowdfunding web application designed to assist college students in raising funds for their tuition expenses. The platform aims to provide a user-friendly, secure, and transparent environment for students to seek financial support from a community of donors and sponsors who believe in the power of education.",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "Nicholas D. Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "envalid": "^7.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "npm": "^10.1.0"
+  }
+}
