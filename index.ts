@@ -1,9 +1,11 @@
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import generateEnvSample from "./utils/generateEnvSample";
 dotenv.config();
 import env from "./env";
 import app from "./app";
 
+if (env.NODE_ENV === "development") generateEnvSample();
 const { PORT } = env;
 // Database connection
 let mongoString = env.MONGO;
