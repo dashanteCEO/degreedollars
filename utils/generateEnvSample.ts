@@ -42,4 +42,4 @@ const generateEnvSample = async () => {
   }
 };
 
-generateEnvSample();
+export default generateEnvSample;
