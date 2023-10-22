@@ -1,6 +1,5 @@
 import slugify from "slugify";
 import Logo from "../assets/logo.svg"
-
 function Header() {
   return (
     <header className="p-3 flex justify-between w-full items-center">
