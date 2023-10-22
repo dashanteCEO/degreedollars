@@ -52,8 +52,9 @@ function Hero() {
             return (
               <li key={link} className='p-4 border-2 border-primary rounded-full h-full
               items-center w-[19%] justify-center flex hover:bg-[#2ecc71]
-              hover:duration-500 cursor-pointer hover:text-white '>
-                <h3 className="capitalize text-primary font-medium">{link}</h3>
+              hover:duration-500 cursor-pointer hover:text-[#ffffff]
+              capitalize text-primary font-medium'>
+              {link}
               </li>
             );
           })}
