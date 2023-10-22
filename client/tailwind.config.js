@@ -8,6 +8,7 @@ export default {
         white: "#FFFFFF",
         green: "#15803d",
         black: "#000000",
+        primary: "#2ecc71",
       }
     },
     

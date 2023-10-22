@@ -538,6 +538,10 @@ video {
   margin-left: 3rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -550,8 +554,60 @@ video {
   height: 2.5rem;
 }
 
+.h-\[320px\] {
+  height: 320px;
+}
+
+.h-\[60\%\] {
+  height: 60%;
+}
+
+.h-\[63px\] {
+  height: 63px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[350px\] {
+  height: 350px;
+}
+
+.h-\[380px\] {
+  height: 380px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[70px\] {
+  height: 70px;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-3\/12 {
+  width: 25%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-\[19\%\] {
+  width: 19%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .w-\[70\%\] {
@@ -562,12 +618,32 @@ video {
   width: 100%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -589,6 +665,26 @@ video {
   border-color: rgb(46 204 113 / var(--tw-border-opacity));
 }
 
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(46 204 113 / var(--tw-border-opacity));
+}
+
+.bg-\[\#f5f5f5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 204 113 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -597,21 +693,56 @@ video {
   padding: 0.75rem;
 }
 
-.font-\[Inter\] {
-  font-family: Inter;
+.p-4 {
+  padding: 1rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.p-\[1px\] {
+  padding: 1px;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.font-\[Inter\] {
+  font-family: Inter;
 }
 
 .text-\[14px\] {
   font-size: 14px;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
+.font-\[15px\] {
+  font-weight: 15px;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {
@@ -627,29 +758,39 @@ video {
   color: rgb(46 204 113 / var(--tw-text-opacity));
 }
 
-.text-gray-100 {
+.text-\[\#333333\] {
   --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
+  color: rgb(51 51 51 / var(--tw-text-opacity));
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(46 204 113 / var(--tw-text-opacity));
 }
 
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.transition-all {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
-.ease-in {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-}
-
 *{
   font-family: Inter, sans-serif;
+}
+
+.hover\:bg-\[\#12c77c\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 199 124 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[\#2ecc71\]:hover {
@@ -662,21 +803,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#2ecc71\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(46 204 113 / var(--tw-text-opacity));
-}
-
-.hover\:underline:hover {
-  text-decoration-line: underline;
-}
-
-.hover\:transition-all:hover {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .hover\:transition:hover {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -687,65 +813,6 @@ video {
 
 .hover\:duration-500:hover {
   transition-duration: 500ms;
-}
-
-.hover\:ease-in:hover {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-}
-
-.hover\:after\:ml-0:hover::after {
-  content: var(--tw-content);
-  margin-left: 0px;
-}
-
-.hover\:after\:mt-1:hover::after {
-  content: var(--tw-content);
-  margin-top: 0.25rem;
-}
-
-.hover\:after\:block:hover::after {
-  content: var(--tw-content);
-  display: block;
-}
-
-.hover\:after\:h-\[2px\]:hover::after {
-  content: var(--tw-content);
-  height: 2px;
-}
-
-.hover\:after\:w-full:hover::after {
-  content: var(--tw-content);
-  width: 100%;
-}
-
-.hover\:after\:bg-\[\#2ecc71\]:hover::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(46 204 113 / var(--tw-bg-opacity));
-}
-
-.hover\:after\:transition:hover::after {
-  content: var(--tw-content);
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.hover\:after\:duration-500:hover::after {
-  content: var(--tw-content);
-  transition-duration: 500ms;
-}
-
-.hover\:after\:ease-in-out:hover::after {
-  content: var(--tw-content);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hover\:after\:content-\[\'\'\]:hover::after {
-  --tw-content: '';
-  content: var(--tw-content);
 }
 
 @media (min-width: 768px) {
