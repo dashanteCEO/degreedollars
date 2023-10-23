@@ -17,7 +17,7 @@ function Header() {
       </div>
         <div className="cta">
           <button className="border-[#2ecc71] border-2 py-2 px-4
-          rounded-full text-[#2ecc71] font-semibold font-[Inter]
+          rounded-xl text-[#2ecc71] font-semibold font-[Inter]
           text-[14px] hover:text-white hover:bg-[#2ecc71] hover:transition 
           hover:duration-500">Start A Campaign</button>
         </div>
