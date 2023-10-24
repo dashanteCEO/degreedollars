@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.jsx"],
   theme: {
     extend: {
+      fontFamily: {
+        main: ['Montserrat']
+      },
       colors: {
         blue: "#172554",
         white: "#FFFFFF",
