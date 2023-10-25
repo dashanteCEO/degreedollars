@@ -1,11 +1,19 @@
 import Home from "./components/Home/home";
 import Header from "./components/header";
+import PageNotFound from "./components/pageNotFound";
+import { BrowserRouter as Router, Routes, Route
+} from 'react-router-dom';
 
 function App() {
   return (
     <div className="min-h-screen">
       <Header/>
-      <Home/>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='*' element={<PageNotFound/>} />
+        </Routes>
+      </Router>
     </div>
   );
 }
