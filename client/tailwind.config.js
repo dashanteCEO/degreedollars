@@ -10,7 +10,7 @@ export default {
         blue: "#172554",
         white: "#FFFFFF",
         green: "#15803d",
-        black: "#000000",
+        black: "#222222",
         primary: "#2ecc71",
       }
     },
