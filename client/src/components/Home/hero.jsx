@@ -8,21 +8,21 @@ function Hero() {
 
   return (
     <div className="p-3 flex justify-evenly w-full items-center 
-    flex-col h-[400px] mt-8 pt-4">
-      <h2 className='text-6xl font-medium '>
+    flex-col h-[380px] mt-8 pt-4">
+      <h2 className='text-6xl font-semibold '>
         Elevate Dreams, Fund Futures
       </h2>
       <div className='flex flex-col items-center h-[60%] justify-center'>
-        <h3 className='text-xl flex items-center text-normal'>Education is the key to unlocking a brighter future, with your help someone education journey will be possible.</h3>
-        <h3 className='text-xl flex items-center text-normal'> Take a look at our website to see how you can help make a dream a reality.</h3>
+        <h3 className='text-xl flex items-center text-normal'>We're thrilled to have you here, joining us in our mission to support education and create opportunities for those in need.</h3>
+        <h3 className='text-lg flex items-center text-normal text-center '>Your presence means a lot to us, and your contribution will play a vital role in empowering individuals  <br/> to access quality learning resources and a brighter future. </h3>
       </div>
       <div className="items-center w-[60%] rounded-xl flex-row flex justify-between h-16 ">        
       <input type="text" className="w-[78%] h-full bg-[#f5f5f5] 
         rounded-xl outline-none pl-5 text-[20px] font-normal 
         text-[#333333]" placeholder={placeholder}/>
-      <button className="flex items-center justify-center w-[20%] h-full
+      <button className="flex items-center justify-center w-[10%] h-full 
         bg-primary rounded-xl hover:duration-500 hover:bg-[#12c77c] transition-all">
-        <MdFilterList className="text-white text-[25px] ml-2"/>
+        <MdFilterList className="text-white text-[25px] "/>
       </button>
       </div>
       <div className="flex justify-between items-center w-[60%]">
