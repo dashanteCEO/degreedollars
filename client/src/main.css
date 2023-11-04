@@ -548,6 +548,13 @@ video {
   margin-bottom: 1.25rem;
 }
 
+<<<<<<< HEAD:src/main.css
+=======
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+>>>>>>> c427356579e473d1f34f6f93e9aedfe58babd056:client/src/main.css
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -609,6 +616,7 @@ video {
   min-height: 100vh;
 }
 
+<<<<<<< HEAD:src/main.css
 .w-\[10\%\] {
   width: 10%;
 }
@@ -617,6 +625,24 @@ video {
   width: 35%;
 }
 
+=======
+.w-8\/12 {
+  width: 66.666667%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.w-\[35\%\] {
+  width: 35%;
+}
+
+.w-\[49\%\] {
+  width: 49%;
+}
+
+>>>>>>> c427356579e473d1f34f6f93e9aedfe58babd056:client/src/main.css
 .w-\[50\%\] {
   width: 50%;
 }
@@ -637,6 +663,7 @@ video {
   width: 100%;
 }
 
+<<<<<<< HEAD:src/main.css
 .w-5\/12 {
   width: 41.666667%;
 }
@@ -661,6 +688,8 @@ video {
   width: 48%;
 }
 
+=======
+>>>>>>> c427356579e473d1f34f6f93e9aedfe58babd056:client/src/main.css
 .cursor-pointer {
   cursor: pointer;
 }
@@ -717,14 +746,25 @@ video {
   border-color: rgb(245 245 245 / var(--tw-border-opacity));
 }
 
+<<<<<<< HEAD:src/main.css
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+=======
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+>>>>>>> c427356579e473d1f34f6f93e9aedfe58babd056:client/src/main.css
 }
 
 .bg-\[\#f5f5f5\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-primary {
@@ -735,6 +775,13 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+<<<<<<< HEAD:src/main.css
+=======
+}
+
+.p-1 {
+  padding: 0.25rem;
+>>>>>>> c427356579e473d1f34f6f93e9aedfe58babd056:client/src/main.css
 }
 
 .p-2 {
@@ -749,8 +796,14 @@ video {
   padding: 1rem;
 }
 
+<<<<<<< HEAD:src/main.css
 .p-1 {
   padding: 0.25rem;
+=======
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+>>>>>>> c427356579e473d1f34f6f93e9aedfe58babd056:client/src/main.css
 }
 
 .px-4 {
@@ -763,6 +816,7 @@ video {
   padding-bottom: 0.5rem;
 }
 
+<<<<<<< HEAD:src/main.css
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -773,6 +827,8 @@ video {
   padding-bottom: 0.25rem;
 }
 
+=======
+>>>>>>> c427356579e473d1f34f6f93e9aedfe58babd056:client/src/main.css
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -853,6 +909,14 @@ video {
 }
 
 .text-black {
+<<<<<<< HEAD:src/main.css
+=======
+  --tw-text-opacity: 1;
+  color: rgb(34 34 34 / var(--tw-text-opacity));
+}
+
+.text-primary {
+>>>>>>> c427356579e473d1f34f6f93e9aedfe58babd056:client/src/main.css
   --tw-text-opacity: 1;
   color: rgb(34 34 34 / var(--tw-text-opacity));
 }

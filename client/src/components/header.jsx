@@ -9,7 +9,7 @@ function Header() {
           {["Why us?", "about", "How it works?"].map((link) => {
             return (
               <li key={link}>
-                <a className="capitalize" href={slugify(link, {lower: true})}>{link}</a>
+                <a className="capitalize " href={slugify(link, {lower: true})}>{link}</a>
               </li>
             );
           })}
