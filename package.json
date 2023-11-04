@@ -1,25 +1,29 @@
 {
-  "name": "degree-dollars",
-  "version": "1.0.0",
-  "description": "Degree Dollars is a crowdfunding web application designed to assist college students in raising funds for their tuition expenses. The platform aims to provide a user-friendly, secure, and transparent environment for students to seek financial support from a community of donors and sponsors who believe in the power of education.",
+  "name": "degreedollar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon index.ts"
-  },
-  "keywords": [],
-  "author": "Nicholas D. Smith",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/express": "^4.17.17",
-    "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./src/main.css --watch"
   },
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "envalid": "^7.3.1",
-    "express": "^4.18.2",
-    "mongoose": "^7.5.2",
-    "npm": "^10.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
   }
 }
