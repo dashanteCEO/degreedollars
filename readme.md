@@ -1,17 +1,8 @@
-# Degree Dollars Developer Contribution Guide
+# React + Vite
 
-Degree Dollars is a crowdfunding web application designed to assist college students in raising funds for their tuition expenses. The platform aims to provide a user-friendly, secure, and transparent environment for students to seek financial support from a community of donors and sponsors who believe in the power of education.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### 1. Contributing Code
+Currently, two official plugins are available:
 
-Please note that contributions to the master branch are not allowed. Instead, you will have to create a separate branch with the naming convention "@Stack/task-accomplished" and then do your work there.
-
-**For Example:**
-
-`git checkout -b @Backend/Updated-The-Global-Error-Handler`.
-
-After completing this step, push your code to github and make a pull request. It will be reviewed by developers in short order.
-
-### 2. Adding sensitive files
-
-Developers, please do not push .env files to this repo in order to protect your privacy. Pull requests with .env files will be rejected. Instead, upload a sample with the key. There is a utility function in the code that will fire when in development mode to create a .env.sample file, so you don't have to worry about that.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
